@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Product</title>
+    <!-- tailwind.Config.js -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind CSS Link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body>
+    <!-- Header section -->
+    <section>
+        <!-- Responsive Navbar -->
+        <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl fixed left-0 top-0 w-full z-10">
+            <h1 class="text-2xl">GREENDEN</h1>
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6 md:hidden">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+
+
+
+            <ul class="flex gap-5 text-gray-600 hidden md:flex">
+                <li>
+                    <a class="hover:underline  hover:text-black" href="#">Home</a>
+                </li>
+
+                <li>
+                    <a class="hover:underline  hover:text-black" href="#">Product</a>
+                </li>
+
+                <li>
+                    <a class="hover:underline hover:text-black" href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- Our Product with Searchabr -->
+    <section class="text-center">
+        <p class=" text-2xl font-medium font mt-10 text-center">Our Products</p>
+        <input class="border border-black p-3 mt-2" style="width: 60%; height: 80%;" type="text"
+            placeholder="Search for the Product.....">
+
+    </section>
+
+    <!-- Middle Section for Flower -->
+    <section class="mt-10 flex justify-center">
+
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-y-24 gap-x-24">
+            <div>
+                <img class="inline hover:shadow-2xl hover:transform hover:translate-y-2"
+                    src="./images/rose_product_1.jpg" alt="Miniature Rose">
+                <h1>Miniature Rose</h1>
+                <p>$30</p>
+            </div>
+
+            <div>
+                <img class="inline hover:shadow-2xl over:transform hover:translate-y-2" src="./images/product_lily.jpg"
+                    alt="White Lily">
+                <h1>White Lily</h1>
+                <p>$35</p>
+            </div>
+
+            <div>
+                <img class="inline hover:shadow-2xl over:transform hover:translate-y-2" src="./images/product_5.jpg"
+                    alt="Petunia">
+                <h1>Petunia</h1>
+                <p>$25</p>
+            </div>
+
+            <div>
+                <img class="inline hover:shadow-2xl hover:transform hover:translate-y-2" src="./images/product_1.jpg"
+                    alt="Monstera deliciosa">
+                <h1>Monstera deliciosa</h1>
+                <p>$20</p>
+            </div>
+
+            <div>
+                <img class="inline hover:shadow-2xl hover:transform hover:translate-y-2" src="./images/product_2.jpg"
+                    alt="JSucculent">
+                <h1>Succulent</h1>
+                <p>$15</p>
+            </div>
+
+            <div>
+                <img class="inline hover:shadow-2xl hover:transform hover:translate-y-2" src="./images/product_3.jpg"
+                    alt="Basil and Mint">
+                <h1>Basil and Mint</h1>
+                <p>$7</p>
+            </div>
+
+            <div>
+                <img class="inline hover:shadow-2xl hover:transform hover:translate-y-2" src="./images/product_6.jpg"
+                    alt="Pilea peperomioides">
+                <h1>Pilea peperomioides</h1>
+                <p>$35</p>
+            </div>
+
+            <div>
+                <img class="inline hover:shadow-2xl hover:transform hover:translate-y-2" src="./images/Product_7.jpg"
+                    alt="Parlor Palm">
+                <h1>Parlor Palm</h1>
+                <p>$12</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="bg-green-100 p-10 flex flex-col gap-4 mt-10">
+        <h1 class="text-3xl font-bold">Greenden</h1>
+        <p>The standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</p>
+        <p>@ 2026 Greenday.com</p>
+    </section>
+</body>
+
+</html>
